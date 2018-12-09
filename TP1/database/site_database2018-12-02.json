@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--6f36b378-c1bc-4a80-b9cc-90700feba5d7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--758e3c5e-e5bc-4dbd-83ca-e5ca998614de",
+            "created": "2018-12-02T23:54:06.000Z",
+            "modified": "2018-12-02T22:54:06.698Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=210 -- url:100 whois:100 antivirus:0 identifiants:0 date_domaines:10",
+            "pattern": "[url:value = 'champenoisarchitectes.fr']",
+            "valid_from": "2018-12-02T23:54:06Z",
+            "valid_until": "2019-01-01T23:54:06.698235Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--2b3d215d-0a0e-4670-8715-06c48d3d8877",
+            "created": "2018-12-02T23:54:54.000Z",
+            "modified": "2018-12-02T22:54:54.595Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=220 -- url:100 whois:70 antivirus:0 identifiants:50 date_domaines:0",
+            "pattern": "[url:value = 'www.villemotier.fr']",
+            "valid_from": "2018-12-02T23:54:54Z",
+            "valid_until": "2019-01-01T23:54:54.595372Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--6722197c-e434-4439-88ba-74469dd2d662",
+            "created": "2018-12-02T23:56:59.000Z",
+            "modified": "2018-12-02T22:56:59.023Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=225 -- url:75 whois:70 antivirus:0 identifiants:80 date_domaines:0",
+            "pattern": "[url:value = 'amateis.fr']",
+            "valid_from": "2018-12-02T23:56:59Z",
+            "valid_until": "2019-01-01T23:56:59.023814Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}

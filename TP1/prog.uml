@@ -1,0 +1,37 @@
+@startuml
+start
+:Récupération de l'url par CertStream;
+if (fr est présent dans l'url du site) then (non)
+:On ne traite pas le site (n'est pas la cible du programme);
+end
+else (oui)
+  : L'url passe par les étapes de détection;
+  partition vérification_du_site {
+    :Vérification de l'url;
+    :Utilisation de WHOIS pour vérifier la distance syntaxique de l'auteur;
+    :Vérification de l'url par virustotal;
+    :Détection de la présence de champs suspects;
+    :Détection d'import JavaScript externe au site;
+    :Vérification des dates de réservation de domaine;
+    :Vérification de mots suspects dans l'URL à partir d'un dictionnaire;
+  }
+endif
+
+:On vérifie le score final du site;
+
+if (Le score est <= 70) then (oui)
+:Danger Faible;
+stop
+else (non)
+  if (le score est <= 125) then (oui)
+  :Danger Intermediaire;
+  stop
+  else (non)
+    if (le score est <= 150) then (oui)
+    :Danger Eleve;
+    stop
+    else (le score est > 150)
+      :Danger Tres Eleve;
+      stop
+endif
+@enduml

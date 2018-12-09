@@ -1,0 +1,35 @@
+{
+    "type": "bundle",
+    "id": "bundle--a430ee8d-26eb-42bd-b7b6-21346f22300e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--e048fecc-b345-42a5-9972-04cd2751f421",
+            "created": "2018-12-04T22:09:21.000Z",
+            "modified": "2018-12-04T21:09:21.604Z",
+            "name": "Malicious site (phishing)",
+            "description": "score:240 mot-suspects:0 url:100 whois:70 antivirus:0 identifiants:70 javascript:0 date_domaines:0",
+            "pattern": "[url:value = 'blog.infos-jeunes.fr']",
+            "valid_from": "2018-12-04T22:09:21Z",
+            "valid_until": "2019-01-03T22:09:21.604395Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--ad0985a5-84a4-4033-94af-c404a3cd9466",
+            "created": "2018-12-04T22:15:18.000Z",
+            "modified": "2018-12-04T21:15:18.825Z",
+            "name": "Malicious site (phishing)",
+            "description": "score:240 mot-suspects:0 url:100 whois:70 antivirus:0 identifiants:70 javascript:0 date_domaines:0",
+            "pattern": "[url:value = 'mailadmin.alatimier.fr']",
+            "valid_from": "2018-12-04T22:15:18Z",
+            "valid_until": "2019-01-03T22:15:18.82506Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}

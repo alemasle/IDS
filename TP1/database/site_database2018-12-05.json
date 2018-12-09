@@ -1,0 +1,203 @@
+{
+    "type": "bundle",
+    "id": "bundle--30757448-8ff6-45af-a498-702f2cd59bc1",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--3877f161-2edc-4924-9d7f-d8e20e8d3948",
+            "created": "2018-12-05T19:15:52.000Z",
+            "modified": "2018-12-05T18:15:52.888Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'chiro-progres.fr']",
+            "valid_from": "2018-12-05T19:15:52Z",
+            "valid_until": "2019-01-04T19:15:52.887974Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--a042288c-7470-4b5e-b5ed-dbdb8821f41b",
+            "created": "2018-12-05T19:20:12.000Z",
+            "modified": "2018-12-05T18:20:12.096Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'apr-plastiques.fr']",
+            "valid_from": "2018-12-05T19:20:12Z",
+            "valid_until": "2019-01-04T19:20:12.096513Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--4d042823-2732-434b-8743-fdb9a8306e31",
+            "created": "2018-12-05T19:20:14.000Z",
+            "modified": "2018-12-05T18:20:14.188Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'ownsport.fr']",
+            "valid_from": "2018-12-05T19:20:14Z",
+            "valid_until": "2019-01-04T19:20:14.188754Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--bdc7b99f-1c10-4156-868d-ac94597359d1",
+            "created": "2018-12-05T19:27:58.000Z",
+            "modified": "2018-12-05T18:27:58.325Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'delicefontaines.fr']",
+            "valid_from": "2018-12-05T19:27:58Z",
+            "valid_until": "2019-01-04T19:27:58.325929Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--c92d4ae4-ef0d-4330-8a2a-baad28bd5d5d",
+            "created": "2018-12-05T19:28:06.000Z",
+            "modified": "2018-12-05T18:28:06.120Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'coeurdezebres.fr']",
+            "valid_from": "2018-12-05T19:28:06Z",
+            "valid_until": "2019-01-04T19:28:06.120848Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--d482c1b3-e285-4531-9f10-a5eccaa5ae34",
+            "created": "2018-12-05T19:30:17.000Z",
+            "modified": "2018-12-05T18:30:17.207Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'clos-des-papes.fr']",
+            "valid_from": "2018-12-05T19:30:17Z",
+            "valid_until": "2019-01-04T19:30:17.206997Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--20121daf-54c0-4f53-ba7e-550445d692e6",
+            "created": "2018-12-05T19:45:42.000Z",
+            "modified": "2018-12-05T18:45:42.688Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'rvd2241.freeboxos.fr']",
+            "valid_from": "2018-12-05T19:45:42Z",
+            "valid_until": "2019-01-04T19:45:42.688352Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--3c460b4a-4d6a-4a9d-b1a6-3ae222e2d2d5",
+            "created": "2018-12-05T19:46:23.000Z",
+            "modified": "2018-12-05T18:46:23.989Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'demodev.monpasseportsante.fr']",
+            "valid_from": "2018-12-05T19:46:23Z",
+            "valid_until": "2019-01-04T19:46:23.988919Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--f8a3109a-ca1c-4bc7-8401-5df960d56b3b",
+            "created": "2018-12-05T19:46:34.000Z",
+            "modified": "2018-12-05T18:46:34.871Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'geves.fr']",
+            "valid_from": "2018-12-05T19:46:34Z",
+            "valid_until": "2019-01-04T19:46:34.871662Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--406844f9-fefc-4fec-a004-04a52465fe1d",
+            "created": "2018-12-05T19:46:37.000Z",
+            "modified": "2018-12-05T18:46:37.997Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'img.lds2.easy-vacances.fr']",
+            "valid_from": "2018-12-05T19:46:37Z",
+            "valid_until": "2019-01-04T19:46:37.997171Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--003e83ce-7830-4e2d-ad7e-21e86d0df13f",
+            "created": "2018-12-05T19:46:38.000Z",
+            "modified": "2018-12-05T18:46:38.753Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'img.lds2.easy-vacances.fr']",
+            "valid_from": "2018-12-05T19:46:38Z",
+            "valid_until": "2019-01-04T19:46:38.75302Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--2d82f849-a7d5-453c-a5ec-3b9f7a2e8db2",
+            "created": "2018-12-05T19:46:41.000Z",
+            "modified": "2018-12-05T18:46:41.300Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'geves.fr']",
+            "valid_from": "2018-12-05T19:46:41Z",
+            "valid_until": "2019-01-04T19:46:41.300354Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--b0c8d8c2-3048-4908-995e-dbf1c2276a2c",
+            "created": "2018-12-05T19:48:22.000Z",
+            "modified": "2018-12-05T18:48:22.268Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'bistrotdesanges.fr']",
+            "valid_from": "2018-12-05T19:48:22Z",
+            "valid_until": "2019-01-04T19:48:22.268165Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--1fe000b0-c7b1-48ef-8fb0-b5839d3c7e0b",
+            "created": "2018-12-05T19:48:25.000Z",
+            "modified": "2018-12-05T18:48:25.551Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:0.00 url:100.00 whois:15.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:20.00)",
+            "pattern": "[url:value = 'img.lds1.easy-vacances.fr']",
+            "valid_from": "2018-12-05T19:48:25Z",
+            "valid_until": "2019-01-04T19:48:25.551361Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}

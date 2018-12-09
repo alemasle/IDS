@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a22be172-8409-4aff-85fa-26b60ad71206",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--57ffa35c-8853-4a2d-bd6e-89282b147813",
+            "created": "2018-12-06T12:45:09.000Z",
+            "modified": "2018-12-06T11:45:09.226Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:35.00 url:100.00 whois:0.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:0.00)",
+            "pattern": "[url:value = 'logementconnecte.sfr.fr']",
+            "valid_from": "2018-12-06T12:45:09Z",
+            "valid_until": "2019-01-05T12:45:09.22609Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}

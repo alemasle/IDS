@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc35f49e-7cbc-4782-9f69-2584b0f342de",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--22f21e10-c83d-42da-8436-0a6cc8b23fb2",
+            "created": "2018-12-07T11:10:01.000Z",
+            "modified": "2018-12-07T10:10:01.808Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=140.00 -- mot-suspects:40.00 url:100.00 whois:0.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:0.00)",
+            "pattern": "[url:value = 'cafedesthermes.fr']",
+            "valid_from": "2018-12-07T11:10:01Z",
+            "valid_until": "2019-01-06T11:10:01.808595Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}

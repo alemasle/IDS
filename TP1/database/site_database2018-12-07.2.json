@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f3cd984-ecec-46d3-9bfd-b76a57acc8c4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--7a0b0bc9-239b-4df8-8d71-61382cebd879",
+            "created": "2018-12-07T04:43:44.000Z",
+            "modified": "2018-12-07T03:43:44.576Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:35.00 url:100.00 whois:0.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:0.00)",
+            "pattern": "[url:value = 'www.praticien-shiatsu-doin-reiki-orange.fr']",
+            "valid_from": "2018-12-07T04:43:44Z",
+            "valid_until": "2019-01-06T04:43:44.576454Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--58ed5ad6-8d36-45e3-b1a2-9d3889ad090f",
+            "created": "2018-12-07T01:37:51.000Z",
+            "modified": "2018-12-07T00:37:51.691Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=135.00 -- mot-suspects:35.00 url:100.00 whois:0.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:0.00)",
+            "pattern": "[url:value = 'freedompiscine-mourgues.fr']",
+            "valid_from": "2018-12-07T01:37:51Z",
+            "valid_until": "2019-01-06T01:37:51.691601Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--c4153e3e-5da7-4f1e-8af9-bdfb2045c402",
+            "created": "2018-12-07T03:40:29.000Z",
+            "modified": "2018-12-07T02:40:29.017Z",
+            "name": "Malicious site (phishing)",
+            "description": "score=140.00 -- mot-suspects:40.00 url:100.00 whois:0.00 antivirus:0.00 identifiants:0.00 javascript:0.00 date_domaines:0.00)",
+            "pattern": "[url:value = 'atomebyamelie.fr']",
+            "valid_from": "2018-12-07T03:40:29Z",
+            "valid_until": "2019-01-06T03:40:29.017182Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}

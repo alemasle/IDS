@@ -1,0 +1,35 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1703f1c-2e2c-456e-b19e-0843f29db2b4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--46677a24-b259-409a-a35a-fa51a3b1ff40",
+            "created": "2018-12-03T23:40:28.000Z",
+            "modified": "2018-12-03T22:40:28.395Z",
+            "name": "Malicious site (phishing)",
+            "description": "score:210 url:100 whois:100 antivirus:0 identifiants:0 date_domaines:10",
+            "pattern": "[url:value = 'lettreaugouvernement.fr']",
+            "valid_from": "2018-12-03T23:40:28Z",
+            "valid_until": "2019-01-02T23:40:28.394972Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--e3c3815f-abfb-4146-bfa9-12e6fd01ad8c",
+            "created": "2018-12-03T23:40:53.000Z",
+            "modified": "2018-12-03T22:40:53.518Z",
+            "name": "Malicious site (phishing)",
+            "description": "score:210 url:100 whois:100 antivirus:0 identifiants:0 date_domaines:10",
+            "pattern": "[url:value = 'vertdeaupaysage.fr']",
+            "valid_from": "2018-12-03T23:40:53Z",
+            "valid_until": "2019-01-02T23:40:53.518518Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}
